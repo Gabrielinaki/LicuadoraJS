@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>LicuadoraJS</title>
+</head>
+<body>
+    <div class="container">
+        <div id="navBar" class="navBar">
+            <div>
+                <ul class="list">
+                    <li>Mi licuadora</li>
+                    <li>Hecha con css, html y javascript puro</li>
+                    <li>Iñaki Coronel</li>
+                </ul> 
+            </div>
+        </div>
+        <div id="blender" class="blender">
+            <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
+        </div>
+        <div class="texto-licuadora"> oprima el boton para que funcione</div>
+    </div>
+</body>
+<audio id="blender-Button-sound" src="sunds/sound_botonLicuadora.mp3" type="audio/mpeg"></audio>
+<audio id="blender-sound" src="sunds/sound_licuadora.mp3" type="audio/mpeg" loop></audio>
+<script src="js/motor.js"></script>
+</html>
